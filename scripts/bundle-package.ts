@@ -129,7 +129,7 @@ async function build(options: Options) {
 async function dts({ input, externals, cwd, ...options }: Options) {
   if (options.watch) {
     try {
-      const [out] = await generateDtsBundle(
+      const [out] = generateDtsBundle(
         [
           {
             filePath: input,
@@ -144,7 +144,7 @@ async function dts({ input, externals, cwd, ...options }: Options) {
       console.log(e.message);
     }
   } else {
-    const [out] = await generateDtsBundle(
+    const [out] = generateDtsBundle(
       [
         {
           filePath: input,

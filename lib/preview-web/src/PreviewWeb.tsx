@@ -344,7 +344,7 @@ export class PreviewWeb<TFramework extends AnyFramework> {
   }) {
     await this.storyStore.onStoriesChanged({ importFn, storyIndex });
     if (!global.FEATURES?.storyStoreV7) {
-      this.channel.emit(Events.SET_STORIES, await this.storyStore.getSetStoriesPayload());
+      this.channel.emit(Events.SET_STORIES, this.storyStore.getSetStoriesPayload());
     }
 
     if (this.urlStore.selection) {

@@ -80,7 +80,7 @@
   }
 
   .logo {
-    width: 200;
+    width: 200px;
   }
 
   .link {
@@ -91,7 +91,7 @@
   }
 
   .code {
-    font-size: 15;
+    font-size: 15px;
     font-weight: 600;
     padding: 2px 5px;
     border: 1px solid #eae9e9;

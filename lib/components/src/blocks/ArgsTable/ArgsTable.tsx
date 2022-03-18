@@ -379,7 +379,7 @@ export const ArgsTable: FC<ArgsTableProps> = (props) => {
     return (
       <EmptyBlock>
         {props.error}&nbsp;
-        <Link href="http://storybook.js.org/docs/" target="_blank" withArrow>
+        <Link href="https://storybook.js.org/docs/" target="_blank" withArrow>
           Read the docs
         </Link>
       </EmptyBlock>
@@ -410,7 +410,7 @@ export const ArgsTable: FC<ArgsTableProps> = (props) => {
     return (
       <EmptyBlock>
         No inputs found for this component.&nbsp;
-        <Link href="http://storybook.js.org/docs/" target="_blank" withArrow>
+        <Link href="https://storybook.js.org/docs/" target="_blank" withArrow>
           Read the docs
         </Link>
       </EmptyBlock>

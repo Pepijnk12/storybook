@@ -58,11 +58,6 @@ export default {
   opacity: 0.9;
 }
 
-.btn.primary {
-  background-color: #33f;
-  color: #fff;
-}
-
 .btn:disabled {
   background-color: #eee;
   color: #777;

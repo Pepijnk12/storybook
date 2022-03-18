@@ -233,5 +233,5 @@ export const readConfig = async (fileName: string) => {
 export const writeConfig = async (config: ConfigFile, fileName?: string) => {
   const fname = fileName || config.fileName;
   if (!fname) throw new Error('Please specify a fileName for writeConfig');
-  await fs.writeFile(fname, await formatConfig(config));
+  await fs.writeFile(fname, formatConfig(config));
 };

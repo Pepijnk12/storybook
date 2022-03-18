@@ -39,7 +39,7 @@ export class ArgsStore {
   }
 
   updateFromDelta(story: Story<any>, delta: Args) {
-    // Use the argType to ensure we setting a type with defined options to something outside of that
+    // Use the argType to ensure we're setting a type with defined options to something outside of that
     const validatedDelta = validateOptions(delta, story.argTypes);
 
     // NOTE: we use `combineArgs` here rather than `combineParameters` because changes to arg

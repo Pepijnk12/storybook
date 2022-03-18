@@ -114,7 +114,7 @@ export const StandardEmailFilled: CSF3Story = {
   ...Standard,
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);
-    await fireEvent.change(canvas.getByTestId('email'), {
+    fireEvent.change(canvas.getByTestId('email'), {
       target: {
         value: 'michael@chromatic.com',
       },
