@@ -14,6 +14,6 @@ Core frameworks have dedicated maintainers or contributors who are responsible f
 
 ## Community frameworks
 
-Community frameworks have fewer contributors which means they may not be as up to date as core frameworks. If you use one of these frameworks for your job, please consider contributing to its integration with Storybook.
+Community frameworks have fewer contributors which means they may not be as up-to-date as core frameworks. If you use one of these frameworks for your job, please consider contributing to its integration with Storybook.
 
 <FrameworkSupportTable core={false} />

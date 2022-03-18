@@ -54,8 +54,8 @@ export abstract class AbstractRenderer {
       // References:
       // https://github.com/angular/angular-cli/blob/master/packages/angular_devkit/build_angular/src/webpack/plugins/hmr/hmr-accept.ts#L50
       // https://github.com/angular/angular/blob/2ebe2bcb2fe19bf672316b05f15241fd7fd40803/packages/core/src/render3/jit/module.ts#L377-L384
-      const { resetCompiledComponents } = await import('@angular/core');
-      resetCompiledComponents();
+      const { ɵresetCompiledComponents } = await import('@angular/core');
+      ɵresetCompiledComponents();
     } catch (e) {
       /**
        * noop catch
